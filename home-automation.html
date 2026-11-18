@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home Automation App · Home Automation</title>
+    <meta name="description" content="A private home automation app by Sebastian Echeverry, with links to its privacy policy and terms of service." />
+    <!-- Public so Google can reach it, but kept out of search results and not linked from the portfolio. -->
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="canonical" href="https://uno-sebastian.github.io/home-automation.html" />
+    <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script>
+      try {
+        var t = localStorage.getItem("theme");
+        if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    </script>
+    <style>
+      .policy { max-width: 760px; padding-top: 72px; padding-bottom: 96px; }
+      .policy h1 { font-size: clamp(2rem, 5vw, 2.8rem); margin-top: 12px; }
+      .policy .updated { margin-top: 10px; color: var(--text-faint); font-family: var(--font-mono); font-size: 0.82rem; }
+      .policy h2 { font-size: 1.3rem; margin: 40px 0 12px; }
+      .policy p, .policy li { color: var(--text-muted); }
+      .policy p + p { margin-top: 12px; }
+      .policy ul { list-style: disc; padding-left: 22px; display: flex; flex-direction: column; gap: 6px; margin-top: 10px; }
+      .policy a { color: var(--accent); }
+      .policy strong { color: var(--text); }
+      .policy-links { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--border); font-size: 0.9rem; }
+    </style>
+  </head>
+  <body>
+    <main class="container policy">
+      <p class="eyebrow">Home Automation</p>
+      <h1>Home Automation App</h1>
+      <p class="updated">A private app by Sebastian Echeverry</p>
+
+      <h2>What it is</h2>
+      <p>A private home automation app I run for my own household. It lets invited members of my household see and control our home devices and automations from one place.</p>
+
+      <h2>Signing in</h2>
+      <p>The app uses <strong>Sign in with Google</strong> only to confirm who you are. It reads your name, email address and profile picture, and nothing else from your Google account. Only people I have invited can get in.</p>
+
+      <h2>Policies</h2>
+      <ul>
+        <li><a href="/privacy.html">Privacy Policy</a>: what information the app uses and how</li>
+        <li><a href="/terms.html">Terms of Service</a>: the rules for using the app</li>
+      </ul>
+
+      <h2>Contact</h2>
+      <p><a href="mailto:uno.sebastian.echo@gmail.com">uno.sebastian.echo@gmail.com</a></p>
+      <p class="policy-links"><a href="/home-automation.html">App home</a> · <a href="/privacy.html">Privacy Policy</a> · <a href="/terms.html">Terms of Service</a></p>
+    </main>
+  </body>
+</html>
